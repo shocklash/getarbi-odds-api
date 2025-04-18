@@ -1,0 +1,10 @@
+
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/odds.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/odds", "dest": "api/odds.js" }
+  ]
+}
