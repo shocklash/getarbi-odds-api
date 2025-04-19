@@ -1,9 +1,0 @@
-{
-  "name": "getarbi-odds",
-  "version": "1.0.0",
-  "main": "api/odds.js",
-  "scripts": {
-    "start": "vercel dev"
-  },
-  "dependencies": {}
-}
