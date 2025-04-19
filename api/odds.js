@@ -1,3 +1,4 @@
+import fetch from 'node-fetch';
 export default async function handler(req, res) {
   const ODDS_API_KEY = process.env.ODDS_API_KEY || "efd53624e89841de697f2f4898623f14";
 
